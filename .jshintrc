@@ -1,0 +1,13 @@
+{
+  "node": true,
+  "browser": true,
+  "curly": true,
+  "esnext": true,
+  "strict": false,
+  "eqeqeq": true,
+  "latedef": true,
+  "indent": 2,
+  "undef": true,
+  "unused": true,
+  "bitwise": true
+}

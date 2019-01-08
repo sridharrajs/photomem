@@ -1,0 +1,58 @@
+{
+  "name": "nodejs-api-boilerplate",
+  "version": "1.0.0",
+  "description": "A custom MEAN stack boilerplate for web application ",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node-inspector & nodemon --inspect server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sridharrajs/nodejs-api-boilerplate.git"
+  },
+  "engines": {
+    "npm": ">5.0",
+    "node": "6.0"
+  },
+  "author": "sridhar <sridhar@aghenam.com>",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/sridharrajs/nodejs-api-boilerplate/issues"
+  },
+  "homepage": "https://github.com/sridharrajs/nodejs-api-boilerplate#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-eslint": "^4.0.2",
+    "gulp-jshint": "^2.1.0",
+    "nodemon": "^1.18.3",
+    "run-sequence": "^1.1.5"
+  },
+  "dependencies": {
+    "async": "^1.5.1",
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.2",
+    "chalk": "^1.1.1",
+    "compress": "^0.99.0",
+    "compression": "^1.6.0",
+    "connect": "^3.4.0",
+    "cors": "^2.7.1",
+    "dotenv": "^5.0.1",
+    "eslint": "^1.10.3",
+    "express": "^4.13.3",
+    "express-validator": "^5.1.2",
+    "generate-password": "^1.4.0",
+    "helmet": "^1.1.0",
+    "is-valid-email": "0.0.2",
+    "jshint": "^2.9.5",
+    "jwt-simple": "^0.4.0",
+    "lodash": "^4.17.5",
+    "moment": "^2.11.0",
+    "mongoose": "^4.3.4",
+    "node-ses": "^2.1.0",
+    "nodejs-gravatar": "^1.0.2",
+    "pug": "^2.0.3",
+    "require-dir": "^0.3.1",
+    "uuid": "^3.2.1"
+  }
+}
