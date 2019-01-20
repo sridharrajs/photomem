@@ -29,6 +29,7 @@ app.use(express.static(path.join(__dirname, '../public')));
 
 app.use(require('./middleware/request-header'));
 app.use('/', require('./routes/index-routes'));
+app.use('/', require('./routes/s3-routes'));
 app.use('/users', require('./routes/user-routes'));
 app.use('/users/me', require('./routes/me-routes'));
 

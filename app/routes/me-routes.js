@@ -14,7 +14,7 @@ function getMyDetails(req, res) {
     return res.status(200).send({
       data: user
     });
-  }).catch((err) => {
+  }).catch(err => {
     return res.status(500).send({
       msg: err
     });
